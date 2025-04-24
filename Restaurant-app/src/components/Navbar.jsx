@@ -1,38 +1,40 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Simple menu items array for easy maintenance
   const menuItems = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Menu", href: "#menu" },
-    { name: "Offers", href: "#offers" },
-    { name: "Gallery", href: "#gallery" },
-    { name: "Locations", href: "#locations" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Menu", href: "/menu" },
+    
   ];
 
   return (
-    <nav className="fixed w-full z-10   bg-white shadow-md">
+    <nav className="fixed w-full z-10 bg-white shadow-md">
       <div className="flex items-center justify-between container mx-auto px-2 h-16">
         {/* Logo */}
-        <a href="#home" className="text-2xl font-bold text-orange-500">
+        <NavLink to="/" className="text-2xl pl-30px font-bold text-orange-500">
           Khana's
-        </a>
+        </NavLink>
 
         {/* Desktop Menu */}
         <div className="hidden sm:flex flex-grow justify-center">
           <ul className="flex items-center justify-between gap-4 text-base font-medium text-gray-700">
             {menuItems.map((item) => (
               <li key={item.name}>
-                <a
-                  href={item.href}
-                  className="hover:text-orange-500 transition-colors"
+                <NavLink
+                  to={item.href}
+                  className={({ isActive }) =>
+                    `hover:text-orange-500 transition-colors ${
+                      isActive ? "text-orange-500" : ""
+                    }`
+                  }
                 >
                   {item.name}
-                </a>
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -96,12 +98,16 @@ const Navbar = () => {
           <ul className="flex flex-col space-y-3 text-base font-medium text-gray-700">
             {menuItems.map((item) => (
               <li key={item.name}>
-                <a
-                  href={item.href}
-                  className="block py-2 hover:text-orange-500"
+                <NavLink
+                  to={item.href}
+                  className={({ isActive }) =>
+                    `block py-2 hover:text-orange-500 ${
+                      isActive ? "text-orange-500" : ""
+                    }`
+                  }
                 >
                   {item.name}
-                </a>
+                </NavLink>
               </li>
             ))}
           </ul>
