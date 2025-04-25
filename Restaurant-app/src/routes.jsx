@@ -3,6 +3,7 @@ import App from "./App";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
+import Footer from "./components/Footer";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ export const router = createBrowserRouter([
         path: "/Menu",
         element: <Menu />,
       },
+
     ],
   },
 ]);
