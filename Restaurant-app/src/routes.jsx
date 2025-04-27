@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Footer from "./components/Footer";
+import Offers from "./pages/Offers";
+import Gallery from "./pages/Gallery";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +24,16 @@ export const router = createBrowserRouter([
         path: "/Menu",
         element: <Menu />,
       },
+      {
+        path: "/Offers",
+        element: <Offers />,
+      },
+      {
+        path: "/Gallery",
+        element: <Gallery />,
+      },
+      
+      
 
     ],
   },
