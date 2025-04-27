@@ -3,6 +3,7 @@ import React from "react";
 const About = () => {
 return (
     <div className="w-full flex flex-col items-center justify-center">
+        
         <div className="relative flex justify-center flex-direction- items-center w-full  bg-opacity-50">
             <section className="w-full h-[60vh] flex brightness-50">
                 <img
