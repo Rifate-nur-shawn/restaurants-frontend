@@ -185,6 +185,7 @@ const Menu = () => {
           ))}
         </div>
       </div>
+      {/* finish adding card */}
 
 
     </div>
