@@ -6,6 +6,7 @@ import Menu from "./pages/Menu";
 import Footer from "./components/Footer";
 import Offers from "./pages/Offers";
 import Gallery from "./pages/Gallery";
+import Locations from "./pages/Locations";
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ export const router = createBrowserRouter([
         path: "/Gallery",
         element: <Gallery />,
       },
+      {
+        path: "/Locations",
+        element: <Locations />,
+      },
+      
       
       
 
