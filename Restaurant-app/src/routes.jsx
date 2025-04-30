@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Offers from "./pages/Offers";
 import Gallery from "./pages/Gallery";
 import Locations from "./pages/Locations";
+import Contact from "./pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "/Locations",
         element: <Locations />,
+      },
+      {
+        path: "/Contact",
+        element: <Contact />,
       },
       
       

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const FoodCard = () => {
   return (
-    <div className="w-full sm:max-w-[300px] mx-auto">
+    <div className="w-full sm:max-w-[300px] mx-auto ">
       <div className="flex flex-col rounded-xl overflow-hidden bg-white shadow-xl h-auto sm:h-[500px]">
         
         <div className="flex flex-col h-full">
