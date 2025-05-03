@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="w-full pt-16">
       <section id="hero" className="flex items-center justify-center">
         <div className="w-full">
-          <section className="relative w-full h-[88vh] overflow-hidden shadow-lg">
+          <section className="relative w-full h-[88vh] mx-auto overflow-hidden shadow-lg">
             <video
               muted
               loop

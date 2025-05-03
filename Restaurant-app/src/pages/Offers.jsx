@@ -1,4 +1,5 @@
 import OffersCard from "../components/OffersCard";
+import { offers } from "../constant/OffersCard";
 
 const Offers = () => {
   return (
@@ -20,8 +21,12 @@ const Offers = () => {
           redefine your dining experience.
         </p>
       </div>
-      <div>
-      <OffersCard />
+      <div >
+      {offers.map((offer) => (
+              <div key={offer.id} className="w-full">
+                <OffersCard menu={offer} />
+              </div>
+            ))}
       </div>
     </div>
   );
