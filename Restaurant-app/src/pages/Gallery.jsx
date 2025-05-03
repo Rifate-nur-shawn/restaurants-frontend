@@ -3,8 +3,8 @@ import React from "react";
 const Gallery = () => {
   return (
     <div>
-      <div className="relative flex justify-center flex-direction- items-center w-full  bg-opacity-50">
-        <section className="w-full h-[60vh] flex brightness-50">
+      <div className=" min-h-screen flex justify-center flex-direction- items-center w-full  bg-opacity-50">
+        <section className=" w-full h-[60vh] flex brightness-50">
           <img
             src="/src/assets/premium_photo-1670984935550-5ce2e220977a.jpeg"
             alt="Restaurant"
@@ -20,6 +20,7 @@ const Gallery = () => {
           redefine your dining experience.
         </p>
       </div>
+
     </div>
   );
 };

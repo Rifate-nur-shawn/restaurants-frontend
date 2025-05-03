@@ -1,8 +1,6 @@
-import OffersCard from "../components/OffersCard";
-
-const Offers = () => {
+const HeroBanner = ({ headingText, subHeadingText }) => {
   return (
-    <div className="z-12">
+    <div className="w-full flex flex-col items-center justify-center">
       <div className="relative flex justify-center flex-direction- items-center w-full  bg-opacity-50">
         <section className="w-full h-[60vh] flex brightness-50">
           <img
@@ -12,19 +10,14 @@ const Offers = () => {
           />
         </section>
         <p className="absolute flex justify-center  text-center font-mono text-4xl text-yellow-500 px-8 py-2">
-          KHANA'S MENU
+          {headingText}
         </p>
         <p className="absolute flex justify-center w-[140vh] text-center text-white font-mono  px-8 py-5 mt-27">
-          Our thoughtfully crafted menu is a treasure trove of unique and
-          delightful dishes, meticulously prepared to delight your senses and
-          redefine your dining experience.
+          {subHeadingText}
         </p>
-      </div>
-      <div>
-      <OffersCard />
       </div>
     </div>
   );
 };
 
-export default Offers;
+export default HeroBanner;

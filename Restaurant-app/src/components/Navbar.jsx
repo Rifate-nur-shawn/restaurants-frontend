@@ -1,22 +1,11 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { menuItems } from "../constant/navItems";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Simple menu items array for easy maintenance
-  const menuItems = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Menu", href: "/menu" },
-    { name: "Offers", href: "/Offers" },
-    { name: "Gallery", href: "/Gallery" },
-    { name: "Locations", href: "/Locations" },
-    { name: "Contact", href: "/Contact" },
-    
-
-    
-  ];
 
   return (
     <nav className="fixed w-full z-10 bg-white shadow-md">
@@ -29,7 +18,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden sm:flex flex-grow justify-center">
           <ul className="flex items-center justify-between gap-4 text-base font-medium text-gray-700">
-            {menuItems.map((item) => (
+            {menuItems?.map((item) => (
               <li key={item.name}>
                 <NavLink
                   to={item.href}
