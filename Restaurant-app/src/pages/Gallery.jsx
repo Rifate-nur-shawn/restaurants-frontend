@@ -1,4 +1,5 @@
 import React from "react";
+import GalleryCard from "../components/GalleryCard";
 
 const Gallery = () => {
   return (
@@ -19,6 +20,9 @@ const Gallery = () => {
           delightful dishes, meticulously prepared to delight your senses and
           redefine your dining experience.
         </p>
+      </div>
+      <div className="">
+        <GalleryCard />
       </div>
     </div>
   );
