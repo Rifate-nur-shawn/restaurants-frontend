@@ -14,50 +14,50 @@ export const offers = [
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Eid Special Offer",
     image: "/src/assets/eid.jpg",
     description:
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",
   },
   {
-    id: 2,
+    id: 4,
     title: "Eid Special Offer",
     image: "/src/assets/eid.jpg",
     description:
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",
   },
   {
-    id: 2,
+    id: 5,
     title: "Eid Special Offer",
     image: "/src/assets/eid.jpg",
     description:
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",
   },
   {
-    id: 2,
+    id: 6,
     title: "Eid Special Offer",
     image: "/src/assets/eid.jpg",
     description:
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",
   },
   {
-    id: 2,
+    id: 7,
     title: "Eid Special Offer",
     image: "/src/assets/eid.jpg",
     description:
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",
   },
   {
-    id: 2,
+    id: 8,
     title: "Eid Special Offer",
     image: "/src/assets/eid.jpg",
     description:
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",
   },
   {
-    id: 2,
-    title: "Eid Special Offer",
+    id: 9,
+    title: "asd",
     image: "/src/assets/eid.jpg",
     description:
       "Celebrate Eid with our special menu featuring traditional dishes and exclusive discounts. Join us for a festive dining experience.",

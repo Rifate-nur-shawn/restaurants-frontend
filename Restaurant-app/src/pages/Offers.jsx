@@ -22,11 +22,11 @@ const Offers = () => {
         </p>
       </div>
       <div >
-      {offers.map((offer) => (
-              <div key={offer.id} className="w-full">
-                <OffersCard menu={offer} />
-              </div>
-            ))}
+        {offers.map((offer) => (
+          <div key={offer.id}>
+            <OffersCard menu={offer} />
+          </div>
+        ))}
       </div>
     </div>
   );
