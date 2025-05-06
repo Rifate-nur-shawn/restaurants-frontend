@@ -8,7 +8,7 @@ const Navbar = () => {
   // Simple menu items array for easy maintenance
 
   return (
-    <nav className="fixed  w-full z-10 bg-black ">
+    <nav className="fixed   w-full z-10 bg-black ">
       <div className="flex items-center justify-between container mx-auto px-2 h-16">
         {/* Logo */}
         <NavLink to="/" className="text-2xl pl-30px font-bold text-orange-500">

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import HeroBanner from "../components/HeroBanner";
 
+
 const locations = {
   BASUNDHARA: {
     map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.956911451682!2d90.42392577510076!3d23.75067638890613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77ceaa2534f%3A0x75edb98e91ce49c9!2sKhana's%20-%20The%20Club%20House!5e0!3m2!1sen!2sbd!4v1714897744727!5m2!1sen!2sbd",
@@ -118,10 +119,10 @@ const Locations = () => {
             <button
               key={loc}
               onClick={() => setSelected(loc)}
-              className={`px-4 py-2  transition-colors duration-200 ${
+              className={`px-4 py-2  transition-colors duration-200  ${
                 selected === loc
                   ? "bg-red-800 text-white"
-                  : "border-[1px] border-black text-gray-800 hover:bg-gray-300"
+                  : "text-bold border-[1px] border-black text-gray-800  hover:bg-gray-300"
               }`}
             >
               {formatLocationName(loc)}

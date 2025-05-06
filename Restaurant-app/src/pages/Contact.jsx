@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div className="bg-white px-6 min-h-screen py-24 sm:py-32 lg:px-8">
+        <div className=" bg-white px-6  py-4 sm:py-32 sm:mt-0 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
                 <h2 className="text-4xl font-bold tracking-tight text-orange-500 sm:text-5xl">
                     Contact Us
@@ -23,7 +23,7 @@ const Contact = () => {
                                 name="first-name"
                                 id="first-name"
                                 autoComplete="given-name"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-indigo-600"
                             />
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const Contact = () => {
                                 name="last-name"
                                 id="last-name"
                                 autoComplete="family-name"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-indigo-600"
                             />
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Contact = () => {
                                 name="email"
                                 id="email"
                                 autoComplete="email"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:outline-indigo-600"
                             />
                         </div>
                     </div>
